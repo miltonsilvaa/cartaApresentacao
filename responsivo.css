@@ -1,0 +1,62 @@
+@media (max-width: 1200px){
+    main{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .conteudo_main{
+      width: 100%;
+      align-items: center;
+      margin-bottom: 15%;
+    }
+  
+    .conteudo_main .texto, .tecnologias{
+      text-align: center;
+    }
+  
+    .conteudo_main article p{
+      width: 100%;
+      font-size: 0.9em;
+    }
+  
+    main .tecnologias .cartoes, .conteudo_main .texto p{
+      margin-top: 32px;
+    } 
+  }
+  
+  @media(max-width: 700px){
+    header{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      text-align: center;
+    }
+    header h1{
+      font-size: 2em;
+    }
+  
+    header nav{
+      margin-top: 24px;
+    }
+  
+    header nav a{
+      font-size: 1em;
+    }
+  
+    main aside cartoes card{
+      width: 60px;
+      height: 60px;
+    }
+  
+    main section article h2, section aside h2{
+      font-size: 1.8em;
+    }
+  
+    main figure img{
+      width: 250px;
+      height: 250px;
+    }
+  }
